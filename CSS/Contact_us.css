@@ -103,3 +103,6 @@ form button{
 form button:hover{
   box-shadow: none;
 }
+.googlemap {
+  margin-left: 10%;
+}
