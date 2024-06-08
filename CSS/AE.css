@@ -9,7 +9,7 @@
 .car_container{
   height: 660px;
   width: 100%;
-  background-image: url(..//Images/pic1.jpg);
+  background-image: url(https://apurva-hande.github.io/enterprise/Images/pic1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100% ;
@@ -20,9 +20,9 @@
 
 }
 @keyframes myani{
-  0%{background-image: url(..//Images/pic1.jpg);}
-  35%{background-image: url(..//Images/pic2.png);}
-  75%{background-image: url(..//Images/pic3.png);}
+  0%{background-image: url(https://apurva-hande.github.io/enterprise/Images/pic1.jpg);}
+  35%{background-image: url(https://apurva-hande.github.io/enterprise/Images/pic2.png);}
+  75%{background-image: url(https://apurva-hande.github.io/enterprise/Images/pic3.png);}
 }
 
 header{
