@@ -1,260 +1,199 @@
-/* Header Section*/
-
-*{
-  margin: 0;
-  padding: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  box-sizing: border-box;
-}
-.car_container{
-  height: 660px;
-  width: 100%;
-  background-image: url(https://apurva-hande.github.io/enterprise/Images/pic1.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100% 100% ;
-  animation-name: myani;
-  animation-duration: 12s;
-  animation-timing-function: linear;
-  animation-iteration-count:infinite;
-
-}
-@keyframes myani{
-  0%{background-image: url(https://apurva-hande.github.io/enterprise/Images/pic1.jpg);}
-  35%{background-image: url(https://apurva-hande.github.io/enterprise/Images/pic2.png);}
-  75%{background-image: url(https://apurva-hande.github.io/enterprise/Images/pic3.png);}
-}
-
-header{
-  display: flex;
-  background-color:#ededed   ;
-  height: 80px;
-  justify-content:space-between;
-  align-items: center;
-  border-bottom: 1px solid #b6b1b1;
+<!DOCTYPE html>
+<html lang="en">
+<head>
   
-}
-
-
-.AE_Home{
-height: 83px;
-width: 80px;
-
-}
-.logo_container{
-  margin-left: 10%;
-}
-.nav_bar{
-  display: flex;
-  margin-right: 30%;
-  min-width: 500px;
-  justify-content:space-between ;
-   
-}
-
-.nav_bar a{ 
-
-  font-size: 14px;
-  letter-spacing: 0.3px;
-  color: #282c3f;
-  font-weight: 700;
-  text-transform:uppercase ;
-  text-decoration: none; 
-  padding: 28px 0;
-  border-bottom: 4px solid #ededed;
-
-}
-.nav_bar a:hover{
-  border-bottom: 4px solid brown;
-
-
-}
-.Akshay{
-  margin-right: 12%;
-}
-.Akshay a{
-  font-size: 30px;
-  font-style:normal;
-  margin-right: 14%;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-  color:brown;
-}
-.enquire{
- margin-right: 5%;
- border-radius: 10px;
- font-weight: bold;
- background-color: peachpuff;
-
-}
-
-/* Main Section */
-.banner_image{
-
-  width: 100%;
-  background: size 200px; 
-   
-}
-.banner_container{
-  margin: 20px 0;
-  height: 100%;
-}
-.category_heading{
-text-transform: uppercase;
-color: #3e4152;
-letter-spacing: .15em;
-font-size: 1.8em;
-margin: 50px 0 10px 30px;
-max-height: 5em ;
-font-weight: 700;
-}
-.Org_info{
-
-  display: flex;
-  text-transform:capitalize;
-  justify-content: space-evenly;
-  font-size: 20px;
-  text-align: center;
-  font-weight: bold;
-  margin-top: 2.75%;
-}
-.xyz{
-  color:rgb(128, 6, 6);
-}
-.warehouse {
-background-color:lightgrey;
-border-radius: 20px;
-margin-top: 20px;
-
-}
-.New_warehouse {
-  background-color:lightgrey;border-radius: 20px;
-  margin-top: 48px;
-}
-.box1{
-  width: 700px;
-  margin: 10px 50px;
-  display: inline-block;
+  <title>Akshay Enterprises</title>
   
+  <link rel="stylesheet" href="../../CSS/AE.css">
+  <link rel="stylesheet" href="../../CSS/About_us.css">
   
-}
-.box2{  
-  width: 700px;
-  margin: 10px 50px;
-  display: inline-block;
-}
-.box_container{
-  display: flex;
-  column-gap: 0px;
-}
-.export_image{
-  height: 350px;;
-  width: 500px;
+</head>
+<body>
   
-}
-.information{
-  text-align: center;
-  font-weight: bold;
-  font-size: 50px;
-  color:black;
-  font-style:normal;
-  
-}
-.box_container{
-margin: 30px;
-
-}
-.company_information{
-  color: black;
-  font-size: 20px;
-  margin: 2px 2px  ;
-}
-.clients {
-  text-align: center;
-  font-weight: bold;
-  font-size: 20px;
- 
-}
-.clients_information{
-  border-radius: 5px;
-  height: 300px;;
-  width: 900px;
-
-}
-
-.footer_container{  
-  height: 300px;
-  width: 100%;
-  background-color: rgb(27, 27, 84);
-  
-}
-.footer_column{
-  color: #ffffff;
-  
-  font-size: 20px;
-  
-}
-.box3{
-  width: 300px;
-  height: 250px;
-  margin-top: 25px;
-  margin-left: 0px; 
-}
-.box4{  
-  width: 300px;
-  height: 250px;
-  background-color:greenyellow;
-  display: inline-block;
-  margin-top: 25px;
-  margin-right: 10%;
-  transition: 1s;
-}
-.box5{
-  width: 300px;
-  height: 250px;
-  display: inline-block;
-  margin-top: 25px;
+  <header>
     
-}
-.box6{  
-  width: 300px;
-  height: 250px;
-  
-  display: inline-block;
-  margin-top: 25px;
-}
-.footer_column{
-  display: flex;
-  column-gap: 30px;
-  margin-right: 20px;
-  margin-top: 27%;
-  
-}
-.footer_logo{
-  height: 100px;
-  width: 100px;
-  margin-top: 23%;
-}
-.footer_social{
-  
-  height: 40px;
-  width: 40px;
-  margin-top: 30%;
-  justify-content:space-evenly
-  
-}
-.location{
-  height: 30px;
-  width: 30px;
+    <div class="logo_container"><a href="../Index.html"><img class="AE_Home" src="../../Images/AE-logo.png" alt="Akshay Enterprises"></a></div>
+    <div class="Akshay" ><a href="../Index.html">Akshay Enterprises</a> </div>
+    <nav class="nav_bar"><a href="../Index.html">Home</a>
+      <a href="../HTML/About_us.html">About Us</a>
+      <a href="../HTML/Our_Product.html">Our Products</a>
+      <a href="../HTML/career.html">CAREER</a>
+      <a href="../HTML/clients.html">CLIENTS</a>
+      <a href="../../HTML/contact_us.html">CONTACT US</a>
+    
+    </nav>
+  </header>
+<main>
 
-}
-.Address{
+  <div class="box_container_about_us">
+    <div class="box8"><img class="export_image_about_us" src="../../Images/our-team-about-us.png" alt=""></div>
+    <div class="box9"> <h1 class="information_about_us"> About us </h1><br>
+     <p class="company_information">Established in 1994, Mehta Pressing is a renowned sheet metal engineering and manufacturing company. Our team of skilled professionals, state-of-the-art infrastructure, and globally recognized processes have made us a preferred player in the engineering and mobility industry.
+      With expertise in production, procurement, and process management, we prioritize on-time delivery and superior quality, solidifying our position as a global leader in this field. 
+    </p>
+    <div class="vision"><h3 class="align_about_us">Vision</h3>
+      <p>“Become a world-class sheet metal supplier to fulfill all customer requirements from various sectors under one roof.”</p>
+    </div>
+    <div class="Mission"><h3 class="align_about_us_mission">Mission</h3>
+      <p> <ul>
+
+                <li>To prepare ourselves to supply world-class quality products to customers and Interested Parties.</li>
+                <li>Maintain our quality system at a benchmark level.</li>
+                <li>Advanced manufacturing facility.</li>
+                <li>Upgrade Tool Room facility with the latest technology machines.</li>
+                <li>To prepare ourselves to supply world-class quality products to customers and Interested Parties.</li>
+                <li>Corporate Social Responsibilities and Meet Interested Parties Requirements.</li>
+                <li>Safe & Healthy Environments.</li>
+          </ul>
+      </p>
+    </div>
+    <div class="our_team"><h1>Our team</h1></div>
+    <div class="box_container1">
+    <div class="box11"><img class="founder_image" src="../../Images/Founder.jpg" alt=""></div>
+    <div class="box12"><br><b>Raosaheb Hande – CEO & Founder</b> <br><br>
+    <p >Mr. Raosaheb Hande our Founder & CEO graduated from Manipal Institute of Technology with bachelor’s in mechanical engineering. He is a veteran in the Sheet Metal manufacturing industry for the last 35 years, working with big names as Tata Motors, John Deere, Whirlpool, Siemens, etc.
+      working with big names as Tata Motors, John Deere, Whirlpool, Siemens, etc.
+    </p>  
+    </div>
+    </div>
+    <div class="box_container2">
+    <div class="box13"><br> <b>Akshay Raosaheb Hande – Director</b><br><br>
+    <p>Mr. Akshay Raosaheb Hande our Founder & CEO graduated from Manipal Institute of Technology with bachelor’s in mechanical engineering. He is a veteran in the Sheet Metal manufacturing industry for the last 35 years, working with big names as Tata Motors, John Deere, Whirlpool, Siemens, etc.
+      working with big names as Tata Motors, John Deere, Whirlpool, Siemens, etc.
+    </p>
+    
+    
+    </div>
+    <div class="box14"> <img class="founder_image" src="../Images/Manager.jpg" alt=""> </div>
+    </div>
+   </div>
+   </div>
+   <div class="wrapper">
+    <div class="center-line">
+      <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+    </div>
+    <div class="row row-1">
+      <section>
+        <i class="icon fas fa-home"></i>
+        <div class="details">
+          <span class="title">Title of Section 1</span>
+          <span>1st Jan 2021</span>
+        </div>
+        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <div class="bottom">
+          <a href="#">Read more</a>
+          <i>- Someone famous</i>
+        </div>
+      </section>
+    </div>
+    <div class="row row-2">
+      <section>
+        <i class="icon fas fa-star"></i>
+        <div class="details">
+          <span class="title">Title of Section 2</span>
+          <span>2nd Jan 2021</span>
+        </div>
+        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <div class="bottom">
+          <a href="#">Read more</a>
+          <i>- Someone famous</i>
+        </div>
+      </section>
+    </div>
+    <div class="row row-1">
+      <section>
+        <i class="icon fas fa-rocket"></i>
+        <div class="details">
+          <span class="title">Title of Section 3</span>
+          <span>3rd Jan 2021</span>
+        </div>
+        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <div class="bottom">
+          <a href="#">Read more</a>
+          <i>- Someone famous</i>
+        </div>
+      </section>
+    </div>
+    <div class="row row-2">
+      <section>
+        <i class="icon fas fa-globe"></i>
+        <div class="details">
+          <span class="title">Title of Section 4</span>
+          <span>4th Jan 2021</span>
+        </div>
+        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <div class="bottom">
+          <a href="#">Read more</a>
+          <i>- Someone famous</i>
+        </div>
+      </section>
+    </div>
+    <div class="row row-1">
+      <section>
+        <i class="icon fas fa-paper-plane"></i>
+        <div class="details">
+          <span class="title">Title of Section 5</span>
+          <span>5th Jan 2021</span>
+        </div>
+        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <div class="bottom">
+          <a href="#">Read more</a>
+          <i>- Someone famous</i>
+        </div>
+      </section>
+    </div>
+    <div class="row row-2">
+      <section>
+        <i class="icon fas fa-map-marker-alt"></i>
+        <div class="details">
+          <span class="title">Title of Section 6</span>
+          <span>6th Jan 2021</span>
+        </div>
+        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <div class="bottom">
+          <a href="#">Read more</a>
+          <i>- Someone famous</i>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div ><h1 class="iso">ISO Certification</h1><br><br>
+  <div class="certificate"><img src="../../Images/cert.jpg" alt=""></div>
+</div>
+
+</main>
+  <footer>
+   <div class="footer_container">
+      <div class="footer_column">
+        
+        <div class="box3"> <a href="../Index.html"><img class="footer_logo" src="../../Images/AE-logo.png" alt=""></a></div>
+        <div class="box4"><h4 class="CEO">Founder & CEO</h4></div>
+        <div class="box5" ><h4>Contact Us</h4><br>
+          <img class="location" src="../../Images/location_on_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="">
+           <p class="Address"> Gat No-267, Kuruli Nanekarwadi Industrial Estate, Opp. Alandi Phata Near Rebari Complex, Chakan, Pune-410501.</p><br>
+          <img class="location" src="../../Images/mail_24dp_FILL0_wght400_GRAD0_opsz24.png" alt=""><p class="Address">ae.hande@gmail.com</p>
+        
+        </div>
+        <div class="box6"> <nav class="nav_footer">
+          
+          <a href="#"><img class="footer_social" src="../../Images/facebook.png" alt=""></a>
+          <a href="#"><img class="footer_social" src="../../Images/instagram.png" alt=""></a>
+          <a href="#"><img class="footer_social" src="../../Images/linkedin.png" alt=""></a>
+          <a href="#"><img class="footer_social" src="../../Images/whatsapp.png" alt=""></a>
+
+                            </nav>  
+        </div>
+        
+         </div>
+         
+         </div>
+         
+      </div>
+      
+   </div>
+   
+  </footer>
+
   
-  font-size: 15px;
-}
-.CEO{
-  text-align: center;
-}
-
-
+</body>
+</html>
